@@ -1,0 +1,122 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #21AD51;
+    width: 15%;
+    height: 100vh;
+}
+
+.menu-header {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: flex-start;
+    border-radius: 0pt 0pt 20pt 0pt;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 7vh;
+}
+
+.menu-header-button {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 5%;
+}
+
+#home-button {
+    padding-left: 2.5vw;
+    height: 5vh;
+}
+
+#close-button {
+    height: 4vh;
+}
+
+
+.menu-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 20vh;
+    padding-bottom: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 50%;
+    width: auto;
+}
+
+.menu-icon {
+    margin-left: 10%;
+}
+
+.menu-text {
+    margin-top: 3px;
+    margin-left: 12%;
+}
+
+.menu-button {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50pt;
+    color: white;
+    background-color: #21AD51;
+    font-family: 'Inter', sans-serif;
+    font-weight: 555;
+    font-size: 0.95vw;
+    line-height: 0.75;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    height: 4vh;
+    width: 10.5vw;
+}
+
+.menu-button-active {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50pt;
+    color: #21AD51;
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 555;
+    font-size: 0.95vw;
+    line-height: 0.75;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    height: 4vh;
+    width: 10.5vw;
+}
+
+.menu-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 1vh;
+    height: 4vh;
+}
+
+.footer-button {
+    height: 3vh;
+}

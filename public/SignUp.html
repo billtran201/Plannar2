@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Plannar | Sign up</title>
+    <link rel="stylesheet" type="text/css" href="css/SignUp.css">
+    <link rel="stylesheet" type="text/css" href="css/DefaultNav.css">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+
+    <script defer src="/__/firebase/10.11.0/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/10.11.0/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/10.11.0/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/10.11.0/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/10.11.0/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/10.11.0/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/10.11.0/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/10.11.0/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/10.11.0/firebase-performance-compat.js"></script> 
+  </head>
+
+  <body>
+    
+    <div class="nav-bar">
+      <div class="nav-bar-left">
+        <button>Home</button>
+        <button>About</button>
+        <button>Contact</button>
+      </div>
+      <div class="nav-bar-right">
+        <a href="SignIn.html"><button id="nav-sign-in-button">Sign in</button></a>
+        <button id="nav-sign-up-button">Sign up</button>
+      </div>
+    </div>
+
+    <div class="body-wrapper">
+      <div class="left-body">
+        <h1 id="plannar">Plannar</h1>
+        <h2 id="slogan">Connect and stay organized</h2>
+      </div>
+
+      <div>
+        Name:
+        <input type="text" id="test1">
+        Password:
+        <input type="password" id="test2">
+        <button type="submit" onclick="writeToDatabase()">Submit</button>
+    
+      </div>
+
+      <div class="right-body">
+        <div class="sign-up-box">
+          <div id="signup-message"></div>
+          <h1 id="sign-up-text">Sign up</h1>
+          <input id="first-name" class="input-field" type="text" placeholder="First Name">
+          <input id="last-name" class="input-field" type="text" placeholder="Last Name">
+          <input id="email" class="input-field" type="email" placeholder="Email">
+          <input id="password" class="input-field" type="password" placeholder="Password">
+          <button id="sign-up-button">Sign up</button>
+        </div>
+        <div class="sign-in-link">
+          <p id="sign-in-text">Already have an account? <a id="join-link" href="SignIn.html">Sign in here</a></p>
+        </div>
+      </div>
+    </div>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script src="signup.js"></script>
+  </body>
+</html>

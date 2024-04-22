@@ -1,0 +1,74 @@
+.nav-bar {
+    user-select: none;
+    padding-top: 10px;
+    display: flex;
+    width: 95%;
+    height: 10%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+  
+.nav-bar-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 25%;
+    height: 10%;
+    justify-content: space-evenly;
+}
+  
+.nav-bar-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 17%;
+    height: 10%;
+    justify-content: space-between;
+}
+  
+#nav-sign-in-button {
+    background-color: white;
+    border-radius: 50pt;
+    border: 2px solid #21AD51;
+    color: #21AD51;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 12pt;
+    width: auto; /* Remove fixed width */
+    height: 40px;
+    min-width: 150px; /* Set a minimum width */
+    padding: 0 20px; /* Add padding for better visual appearance */
+}
+  
+#nav-sign-in-button:hover {
+    background-color: #21AD51;
+    border-radius: 50pt; 
+    border: 1px solid white;
+    color: white;
+}
+
+#nav-sign-up-button {
+    background-color: #21AD51;
+    border-radius: 50pt;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 12pt;
+    width: auto; /* Remove fixed width */
+    height: 40px;
+    min-width: 150px; /* Set a minimum width */
+    padding: 0 20px; /* Add padding for better visual appearance */
+}
+  
+#nav-sign-up-button:hover {
+    background-color: white;
+    border-radius: 50pt;
+    border: 2px solid #21AD51;
+    color: #21AD51;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 12pt;
+    width: 150px;
+    height: 40px;
+}
